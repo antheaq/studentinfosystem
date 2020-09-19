@@ -53,7 +53,7 @@ if (isset($_SESSION['email'], $_SESSION['password'])) {
                         </li>
                     </ul>
                     <form class="form-inline">
-                        <input class="form-control mr-sm-5" type="text" id="filterSearch" placeholder="Filter Search" aria-label="Search Student">
+                        <input class="form-control mr-sm-5" type="text" id="inputSearch" placeholder="Filter Search">
                         <!-- <button class="btn btn-success my-2 my-sm-0 mr-5 disabled" type="submit">Search</button> -->
                     </form>
                     <span class="navbar-text mr-3">
@@ -192,6 +192,7 @@ if (isset($_SESSION['email'], $_SESSION['password'])) {
         </footer>
 
         <!--JS, Popper.js, and jQuery-->
+        
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
